@@ -1,5 +1,14 @@
 
 # vihogmai1
+Download và cài đặt SQL Server 2025, phiên bản Developer
+
+Link tải: https://www.microsoft.com/vi-vn/sql-server/sql-server-downloads
+
+Chọn phiên bản SQL Server 2025 Developer
+
+Không chọn Azure (nặng, ko dùng đến), các tính năng mở rộng khác (feature) chọn tất cả
+
+Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add Current User) và SQL Server Authentication (username mặc định là sa, chỉ cần nhập mật khẩu 123 , nhớ nhập 2 chỗ: Enter password và Confirm password)
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76b5ed7f-595d-48cf-9b87-052bc4e783aa" />
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/4806597e-5a0d-46b5-b97d-881e1ffcab8f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/339572b4-967c-42b2-99f6-ec363f6abad0" />
