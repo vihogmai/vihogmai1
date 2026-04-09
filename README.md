@@ -10,7 +10,7 @@ Không chọn Azure (nặng, ko dùng đến), các tính năng mở rộng khá
 
 Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add Current User) và SQL Server Authentication (username mặc định là sa, chỉ cần nhập mật khẩu 123 , nhớ nhập 2 chỗ: Enter password và Confirm password)
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76b5ed7f-595d-48cf-9b87-052bc4e783aa" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/339572b4-967c-42b2-99f6-ec363f6abad0" />
 
 Cấu hình cho SQL Server làm việc ở cổng động (Dynamic Port), TCP: enable+active yes cho 127.0.0.1, chọn cổng động là 3xxxx với xxxx là 4 số cuối của mã số sv, (nếu cổng này đã mở sẵn trước đó bởi 1 ứng dụng khác thì chọn cổng là 4xxxx hoặc 5xxxx)
 Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
@@ -20,8 +20,7 @@ Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê 
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK
 
 <img width="1920" height="1032" alt="image" src="https://github.com/user-attachments/assets/4806597e-5a0d-46b5-b97d-881e1ffcab8f" />
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/339572b4-967c-42b2-99f6-ec363f6abad0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/76b5ed7f-595d-48cf-9b87-052bc4e783aa" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e96e1b03-acc8-4b55-a643-c0623a5ee1c5" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/61fe00c9-8526-49d7-bfa1-613726a7b197" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/68acce8c-425b-410e-8af9-94ca158d6142" />
