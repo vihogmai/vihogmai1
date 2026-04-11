@@ -14,7 +14,10 @@ Cài đặt với 2 kiểu login (Mixed Mode): Windows Authentication (nhớ Add
 2. Cấu hình cho SQL Server làm việc ở cổng động (Dynamic Port), TCP: enable+active yes cho 127.0.0.1, chọn cổng động là 3xxxx với xxxx là 4 số cuối của mã số sv, (nếu cổng này đã mở sẵn trước đó bởi 1 ứng dụng khác thì chọn cổng là 4xxxx hoặc 5xxxx)
 Kiểm tra xem service SQL Server có đang running và mở đúng cổng đã chọn hay không?
 
-3. Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
+<img width="1912" height="1070" alt="image" src="https://github.com/user-attachments/assets/67bf3f9f-8937-4cae-b7ad-dcda0cb1963e" />
+
+
+ê. Sử dụng lệnh trên cmd: netstat -ano | findstr LISTENING để liệt kê các cổng mà máy tính đang mở,
 
 Nếu thấy dòng: TCP 0.0.0.0:xxxxx với xxxxx là cổng đã chọn ở bước 2 là OK
 
